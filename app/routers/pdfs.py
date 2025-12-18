@@ -1,9 +1,9 @@
 import os
 from fastapi import APIRouter, UploadFile, File, HTTPException, Depends
-from core.config import PDF_FOLDER
-from core.database import chroma_collection
-from services.rag_service import save_and_process_pdf, get_file_info
-from core.security import get_current_project
+from app.core.config import PDF_FOLDER
+from app.core.database import chroma_collection
+from app.services.rag_service import save_and_process_pdf, get_file_info
+from app.core.security import get_current_project
 
 router = APIRouter()
 

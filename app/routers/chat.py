@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from services.rag_service import query_llm
-from core.security import get_current_project
+from app.services.rag_service import query_llm
+from app.core.security import get_current_project
 from fastapi import Depends
 from pydantic import BaseModel
 

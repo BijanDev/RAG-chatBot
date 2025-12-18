@@ -1,6 +1,6 @@
 from fastapi import Header, HTTPException, Depends
 # from db.store import PROJECTS_DB
-import db.store as store
+import app.db.store as store
 
 
 def get_current_project(authorization: str = Header(...)):

@@ -4,9 +4,9 @@ from typing import Optional
 import uuid
 from datetime import datetime
 from fastapi import Depends
-from core.security import get_current_project
+from app.core.security import get_current_project
 # from db.store import PROJECTS_DB, save_db
-import db.store as store
+import app.db.store as store
 
 
 router = APIRouter(prefix="/projects", tags=["Projects"])

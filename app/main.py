@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import pdfs, chat, projects
-from db.store import load_db
+from app.db.store import load_db
 
 # FastAPI app
 app = FastAPI(title="RAG Policy API")

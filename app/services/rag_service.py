@@ -5,8 +5,8 @@ from datetime import datetime
 from fastapi import UploadFile, HTTPException
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from core.config import PDF_FOLDER
-from core.database import chroma_collection
+from app.core.config import PDF_FOLDER
+from app.core.database import chroma_collection
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from groq import Groq
 
