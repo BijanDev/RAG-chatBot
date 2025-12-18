@@ -1,0 +1,16 @@
+{
+  "pk_live_08ed381c04dd4d689227ed343d3d9aa1": {
+    "project_id": "5ea5c76f-67df-41b9-87a7-f37f6483c968",
+    "company_name": "Acme Corp 01",
+    "site_name": "Acme Policy Bot 01",
+    "website_url": "https://acme.org",
+    "company_size": "10-50",
+    "industry": "SaaS",
+    "contact_email": "admin@acme01.com",
+    "created_at": "2025-12-16T06:29:42.295879",
+    "is_active": true,
+    "api_key": "pk_live_08ed381c04dd4d689227ed343d3d9aa1",
+    "gemini_key": "",
+    "groq_key": ""
+  }
+}

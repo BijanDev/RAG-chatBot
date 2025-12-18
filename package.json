@@ -1,0 +1,25 @@
+{
+  "name": "rag-pdf-back4app",
+  "version": "1.0.0",
+  "description": "RAG PDF ChatBot - Parse Cloud Code for Back4App",
+  "main": "cloud/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "parse": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "parse",
+    "back4app",
+    "rag",
+    "pdf"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
+
