@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import pdfs, chat, projects
+from app.routers import pdfs, chat, projects
 from db.store import load_db
 
 # FastAPI app
